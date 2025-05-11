@@ -24,7 +24,7 @@ export default function Banner() {
         }
     };
     return (
-        <div className='bg-black text-white md:h-[700px] min-h-[470px] flex items-center relative overflow-hidden md:py-0 py-6'>
+        <section className='bg-black text-white md:h-[700px] min-h-[470px] flex items-center relative overflow-hidden md:py-0 py-6'>
             <div className='w-full z-10'>
                 <Carousel
                     responsive={responsive}
@@ -47,6 +47,6 @@ export default function Banner() {
                 className='md:hidden block absolute top-0 right-0 w-[415px] h-[285px] bg-no-repeat bg-cover'
                 style={{ backgroundImage: `url('/banner/bannerBackMob.png')` }}
             ></div>
-        </div>
+        </section>
     )
 }

@@ -4,3 +4,7 @@
     max-width: 1240px;
     margin: 0 auto;
 }
+.sm-container {
+    max-width: 900px;
+    margin: 0 auto;
+}
