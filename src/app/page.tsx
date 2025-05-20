@@ -4,6 +4,7 @@ import MiniFilter from '@/components/filter/miniFilter'
 import OurPc from '@/components/pc/OurPc'
 import NewProducts from '@/components/product/NewProducts'
 import SaleProducts from '@/components/product/SaleProducts'
+import Service from '@/components/service/Service'
 import React from 'react'
 
 export default function Home() {
@@ -15,6 +16,7 @@ export default function Home() {
       <NewProducts />
       <SaleProducts />
       <MiniFilter />
+      <Service />
     </>
   )
 }
