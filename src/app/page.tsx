@@ -5,7 +5,7 @@ import OurPc from '@/components/pc/OurPc'
 import NewProducts from '@/components/product/NewProducts'
 import SaleProducts from '@/components/product/SaleProducts'
 import Service from '@/components/service/Service'
-import React from 'react'
+import VideoCarusel from '@/components/video-carusel/VideoCarusel'
 
 export default function Home() {
   return (
@@ -17,6 +17,7 @@ export default function Home() {
       <SaleProducts />
       <MiniFilter />
       <Service />
+      <VideoCarusel />
     </>
   )
 }
