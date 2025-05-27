@@ -1,6 +1,5 @@
 "use client"
 import React from 'react'
-import Line from '../catalog/Line'
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import VideoCaruselCard from './VideoCaruselCard';
